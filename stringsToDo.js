@@ -37,7 +37,6 @@ function Acronym(string){
     for (let x in abbreviated){
         // x[0].toUpperCase()
         // forEach(abbreviated[x][0]){
-            
         // }
         if(abbreviated[x].length>0){
             upperCase += abbreviated[x][0]
@@ -72,9 +71,7 @@ function shorten(string, value){
         if(string[x].length >= value){
             // console.log(string[x])
             shortened.push(string[x])
-
         }
-
     }
     return shortened
 }
